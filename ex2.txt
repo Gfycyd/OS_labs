@@ -1,0 +1,96 @@
+    1  sudo apt update && sudo apt upgrade
+    2  sudo apt install ubuntu-restricted-extras
+    3  unityshell:/org/compiz/profiles/unity/plugins/unityshell/ launcher-minimize-window true
+    4  unityshell:/org/compiz/profiles/unity/plugins/unityshell/launcher-minimize-window true
+    5  username
+    6  ssh -X[katukha]@osc-[N].edu.innopolis.ru
+    7  whoami
+    8  hostname
+    9  man <item>
+   10  man<item>
+   11  man whoami
+   12  man man
+   13  man --help
+   14  -h
+   15  --help
+   16  man -h
+   17  less
+   18  man -h | head
+   19  man --help|less
+   20  man -h | head
+   21  man -h|tail
+   22  stdin
+   23  ls > list.txt
+   24  pwd
+   25  mkdir <newGame>
+   26  mkdir<newgame>
+   27  ls
+   28  gedit<list.txt>
+   29  gedit <list.txt>
+   30  ~
+   31  .
+   32  ..
+   33  cd ..
+   34  q
+   35  exit
+   36  cd `
+   37  end
+   38  exit
+   39  q
+   40  ls .
+   41  sudo apt install unity-tweak-tool
+   42  sudo apt-get install bleachbit
+   43  mkdir ~/week1
+   44  cd ~/week1
+   45  exit
+   46  usr
+   47  gcc
+   48  cd /usr/bin
+   49  ls > week1/ex1.txt
+   50  week1
+   51  exit
+   52  docker -v
+   53  docker run --rm -it -v <host_dir>:<container_dir> gcc bash
+   54  docker run hello-world
+   55  docker run --help
+   56  docker -w
+   57  docker run --rm -it -v /usr/bin gcc bash
+   58  docker run mkdir ~/week1
+   59  docker run hello-world
+   60  sudo apt-get purge -y docker.io
+   61  sudo apt-get autoremove -y --purge docker.io
+   62  sudo apt-key adv --keyserver hkp://p80.pool.sks-keyservers.net:80 --recv-keys 58118E89F3A912897C070ADBF76221572C52609D
+   63  echo "deb https://apt.dockerproject.org/repo ubuntu-xenial main" | sudo tee /etc/apt/sources.list.d/docker.list
+   64  sudo apt-get update
+   65  apt-cache policy docker-engine
+   66  sudo apt-get install -y docker-engine
+   67  sudo systemctl status docker
+   68  docker pwd
+   69  docker run -- pwd
+   70  docker run ubuntu /bin/echo 'Hello world'
+   71  mkdir ~/week1
+   72  cd ~/week1
+   73  ls ex1.txt
+   74  cd
+   75  ls usr/bin | grep <gcc> | sort -r > ex1.txt
+   76  ls ~usr/bin | grep <gcc> | sort -r > ~week1/ex1.txt
+   77  ls |~usr/bin | grep <gcc> | sort -r > ~week1/ex1.txt
+   78  ls > ~week1/ex1.txt
+   79  cd ~/week1
+   80  ls usr/bin | grep <gcc> | sort -r
+   81  ls > ex1.txt
+   82  ls /usr/bin |sort -r > ex1.txt
+   83  ls /usr/bin | grep "gcc" | sort -r
+   84  cd
+   85  mkdir ~/week1
+   86  cd ~/week1
+   87  ls /usr/bin | grep "gcc" |sort -r > ex1.txt
+   88  ls /usr/bin
+   89  ls /usr/bin | grep "gcc" |sort -r > ex1.txt
+   90  cd
+   91  gcc --version
+   92  sudo apt install gcc
+   93  mkdir ~/week1
+   94  cd ~/week1
+   95  ls /usr/bin | grep "gcc" | sort -r > ex1.txt
+   96  history > ex2.txt
