@@ -1,0 +1,4 @@
+First of all, physical memory it is a real memory that can programs use( in CPU ),
+virtual memory is such an abstraction, when you have not enough memory in real,
+but you have an illusion that you have it, it is stands bigger that physical by
+using other resourses, such as harddrive.
