@@ -1,0 +1,16 @@
+-rw-rw-r-- 1 user user    22:11 ex3.txt  = remove execute permission for every one
+-rwxrw-rwx 1 user user   22:22 ex3.txt = grant all permissions for owner and others
+-rwxrwxrwx 1 user user    22:23 ex3.txt = group permission = user permission
+
+-rw-rw---- 1 user user  22:28 ex3.txt  = chmod 660 (remove all execute, and remove all others permissions)
+-rwxrwxrwx 1 user user  22:30 ex3.txt = chmod 777 ( add all pemissions to all categories)
+-rwxrwxrwx 1 user user  22:30 ex3.txt = 775 ( 111 111 101 ) so no write permission to others
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,7 @@
+user@user-VirtualBox:~/week10$ ls -i
+163860 ex1  144094 ex2.txt  163854 week01
+user@user-VirtualBox:~/week10$ find -inum 144094
+./ex2.txt
+./week01/file.txt
+user@user-VirtualBox:~/week10$ find -inum 144094  -exec {} +
+163860 ex1  131210 ex3.txt  163862 ex4  163854 week01 (no ex2.txt file and also no file.txt)

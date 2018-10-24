@@ -1,0 +1,6 @@
+
+144065 ex1_link1.txt
+144065 ex1_link2.txt
+144065 ex1.txt
+ 
+There are the same, so we can find all then by just findding by i-node
